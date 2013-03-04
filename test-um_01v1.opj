@@ -66,7 +66,23 @@
     (DRC_Check_Name_Prop_For_HierBlocks "FALSE")
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
-    (Netlist_TAB "0"))
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "pcb")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" "allegro\TEST-UM_01V1.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Output Warnings" "TRUE")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "128")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE"))
   (Folder "Outputs"
     (File ".\allegro\pstxnet.dat"
       (Type "Report")
@@ -76,6 +92,17 @@
       (DisplayName "pstxprt.dat"))
     (File ".\allegro\pstchip.dat"
       (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File ".\test-um_01v1.drc"
+      (Type "Report"))
+    (File ".\pcb\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\pcb\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\pcb\pstchip.dat"
+      (Type "Report")
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (MPSSessionName "Shcheblykin")
@@ -84,15 +111,10 @@
       (Path "Design Resources")
       (Path "Design Resources" "e:\orcad_sch\other\test_um\test-um_01v1.dsn")
       (Path "Design Resources" "e:\orcad_sch\other\test_um\test-um_01v1.dsn"
-         "SCHEMATIC1")
-      (Path "Design Resources" "e:\orcad_sch\other\test_um\test-um_01v1.dsn"
          "A - RS232")
-      (Path "Design Resources" "e:\orcad_sch\other\test_um\test-um_01v1.dsn"
-         "b - 48 to 5B")
-      (Path "Design Resources" "e:\orcad_sch\other\test_um\test-um_01v1.dsn"
-         "Design Cache")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" "e:\orcad_sch\lib\sample.olb")
+      (Path "Design Resources" "Library" "e:\orcad_sch\lib\ic.olb")
+      (Path "Design Resources" "Library" "e:\orcad_sch\lib\power.olb")
       (Path "Outputs")
       (Select "Design Resources" "e:\orcad_sch\other\test_um\test-um_01v1.dsn"))
     (HierarchyView)
@@ -105,8 +127,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -4 -23 -20 964 88 531")
-        (Scroll "-37 -10")
-        (Zoom "73")
+        (Scroll "-206 -8")
+        (Zoom "44")
         (Occurrence "/"))
       (Path "E:\ORCAD_SCH\OTHER\TEST_UM\TEST-UM_01V1.DSN")
       (Schematic "SCHEMATIC1")
@@ -114,9 +136,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 22 772 22 474")
-        (Scroll "0 142")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 -4 -23 0 750 0 446")
+        (Scroll "0 0")
+        (Zoom "73")
         (Occurrence "/A01"))
       (Path "E:\ORCAD_SCH\OTHER\TEST_UM\TEST-UM_01V1.DSN")
       (Schematic "A - RS232")
