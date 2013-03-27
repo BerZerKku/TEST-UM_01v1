@@ -109,13 +109,16 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\test-um_01v1.dsn")
-      (Path "Design Resources" ".\test-um_01v1.dsn" "SCHEMATIC1")
+      (Path "Design Resources"
+         "e:\orcad_sch\other\test-um_01v1\test-um_01v1.dsn")
+      (Path "Design Resources"
+         "e:\orcad_sch\other\test-um_01v1\test-um_01v1.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" "e:\orcad_sch\lib\ic.olb")
       (Path "Design Resources" "Library" "e:\orcad_sch\lib\power.olb")
       (Path "Outputs")
-      (Select "Design Resources" ".\test-um_01v1.dsn"))
+      (Select "Design Resources"
+         "e:\orcad_sch\other\test-um_01v1\test-um_01v1.dsn" "b - 48 to 5B"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
