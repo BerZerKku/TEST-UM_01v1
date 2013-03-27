@@ -115,7 +115,7 @@
       (Path "Design Resources" "Library" "e:\orcad_sch\lib\ic.olb")
       (Path "Design Resources" "Library" "e:\orcad_sch\lib\power.olb")
       (Path "Outputs")
-      (Select "Design Resources" ".\test-um_01v1.dsn" "SCHEMATIC1" "PAGE1"))
+      (Select "Design Resources" ".\test-um_01v1.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -125,14 +125,26 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -23 22 768 22 483")
-        (Scroll "81 597")
-        (Zoom "150")
+        (Placement "44 0 1 -1 -1 -4 -23 22 768 22 483")
+        (Scroll "0 0")
+        (Zoom "75")
         (Occurrence "/"))
       (Path "E:\ORCAD_SCH\OTHER\TEST-UM_01V1\TEST-UM_01V1.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1")))
   (PartMRUSelector
+    (CAP_NP
+      (FullPartName "CAP_NP.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
+      (DeviceIndex "0"))
+    (RES_0.25W
+      (FullPartName "RES_0.25W.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
+      (DeviceIndex "0"))
+    (DIODE_LED
+      (FullPartName "DIODE_LED.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
+      (DeviceIndex "0"))
     (MOUNTING_HOLE_PLATED
       (FullPartName "MOUNTING_HOLE_PLATED.Normal")
       (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
@@ -141,14 +153,6 @@
       (FullPartName "SWITCH_2.Normal")
       (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
       (DeviceIndex "1"))
-    (RES_0.25W
-      (FullPartName "RES_0.25W.Normal")
-      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
-      (DeviceIndex "0"))
-    (CAP_NP
-      (FullPartName "CAP_NP.Normal")
-      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
-      (DeviceIndex "0"))
     (CAP_P
       (FullPartName "CAP_P.Normal")
       (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
