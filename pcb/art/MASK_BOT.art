@@ -1,9 +1,9 @@
 G04 ================== begin FILE IDENTIFICATION RECORD ==================*
-G04 Layout Name:  e:/ORCAD_sch/Other/TEST_UM/pcb/test-um_01v1.brd*
+G04 Layout Name:  E:/ORCAD_sch/Other/TEST-UM_01v1/pcb/test-um_01v1.brd*
 G04 Film Name:    MASK_BOT*
 G04 File Format:  Gerber RS274X*
-G04 File Origin:  Cadence Allegro 16.6-S003*
-G04 Origin Date:  Tue Mar 05 10:06:57 2013*
+G04 File Origin:  Cadence Allegro 16.6-S005*
+G04 Origin Date:  Wed Mar 27 11:43:21 2013*
 G04 *
 G04 Layer:  VIA CLASS/SOLDERMASK_BOTTOM*
 G04 Layer:  PIN/SOLDERMASK_BOTTOM*

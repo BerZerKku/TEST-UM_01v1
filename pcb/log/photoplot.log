@@ -3,8 +3,8 @@
 (    ARTWORK LOG                                                      )
 (                                                                     )
 (    Drawing          : test-um_01v1.brd                              )
-(    Software Version : 16.6S003                                      )
-(    Date/Time        : Tue Mar 05 10:06:56 2013                      )
+(    Software Version : 16.6S005                                      )
+(    Date/Time        : Wed Mar 27 11:43:20 2013                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -28,7 +28,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < TOP >
-     TO FILE < e:/ORCAD_sch/Other/TEST_UM/pcb/art/TOP.art > ...
+     TO FILE < E:/ORCAD_sch/Other/TEST-UM_01v1/pcb/art/TOP.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -58,10 +58,13 @@ Results from parameter file ...
   SQUARE     1.55000                     0.000 NO     DARK 
   SQUARE     2.05000                     0.000 NO     DARK 
   RECTANGLE  0.60000     x 2.20000      90.000 NO     DARK 
+  RECTANGLE  0.95000     x 0.80000       0.000 NO     DARK 
+  RECTANGLE  0.95000     x 0.80000      90.000 NO     DARK 
   RECTANGLE  1.40000     x 1.10000       0.000 NO     DARK 
   RECTANGLE  1.40000     x 1.10000      90.000 NO     DARK 
   RECTANGLE  1.75000     x 1.00000       0.000 NO     DARK 
   RECTANGLE  1.75000     x 1.00000      90.000 NO     DARK 
+  RECTANGLE  1.80000     x 1.25000       0.000 NO     DARK 
   RECTANGLE  1.80000     x 1.25000      90.000 NO     DARK 
   RECTANGLE  3.40000     x 2.00000      90.000 NO     DARK 
   RECTANGLE  5.90000     x 2.20000       0.000 NO     DARK 
@@ -71,7 +74,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < BOTTOM >
-     TO FILE < e:/ORCAD_sch/Other/TEST_UM/pcb/art/BOTTOM.art > ...
+     TO FILE < E:/ORCAD_sch/Other/TEST-UM_01v1/pcb/art/BOTTOM.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -104,8 +107,30 @@ Results from parameter file ...
 
 
 ================================================================
+     PROCESSING FILM < SILK_BOT >
+     TO FILE < E:/ORCAD_sch/Other/TEST-UM_01v1/pcb/art/SILK_BOT.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.200
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:  NONE
+     SILK_BOT created.
+
+
+================================================================
      PROCESSING FILM < SILK_TOP >
-     TO FILE < e:/ORCAD_sch/Other/TEST_UM/pcb/art/SILK_TOP.art > ...
+     TO FILE < E:/ORCAD_sch/Other/TEST-UM_01v1/pcb/art/SILK_TOP.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -136,7 +161,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < BOARD >
-     TO FILE < e:/ORCAD_sch/Other/TEST_UM/pcb/art/BOARD.art > ...
+     TO FILE < E:/ORCAD_sch/Other/TEST-UM_01v1/pcb/art/BOARD.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -163,7 +188,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < MASK_BOT >
-     TO FILE < e:/ORCAD_sch/Other/TEST_UM/pcb/art/MASK_BOT.art > ...
+     TO FILE < E:/ORCAD_sch/Other/TEST-UM_01v1/pcb/art/MASK_BOT.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -194,7 +219,7 @@ Results from parameter file ...
 
 ================================================================
      PROCESSING FILM < MASK_TOP >
-     TO FILE < e:/ORCAD_sch/Other/TEST_UM/pcb/art/MASK_TOP.art > ...
+     TO FILE < E:/ORCAD_sch/Other/TEST-UM_01v1/pcb/art/MASK_TOP.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -221,10 +246,13 @@ Results from parameter file ...
   SQUARE     1.75000                     0.000 NO     DARK 
   SQUARE     2.25000                     0.000 NO     DARK 
   RECTANGLE  0.80000     x 2.40000      90.000 NO     DARK 
+  RECTANGLE  1.15000     x 1.00000       0.000 NO     DARK 
+  RECTANGLE  1.15000     x 1.00000      90.000 NO     DARK 
   RECTANGLE  1.60000     x 1.30000       0.000 NO     DARK 
   RECTANGLE  1.60000     x 1.30000      90.000 NO     DARK 
   RECTANGLE  1.95000     x 1.20000       0.000 NO     DARK 
   RECTANGLE  1.95000     x 1.20000      90.000 NO     DARK 
+  RECTANGLE  2.00000     x 1.45000       0.000 NO     DARK 
   RECTANGLE  2.00000     x 1.45000      90.000 NO     DARK 
   RECTANGLE  3.60000     x 2.20000      90.000 NO     DARK 
   RECTANGLE  6.10000     x 2.40000       0.000 NO     DARK 
@@ -236,6 +264,7 @@ Results from parameter file ...
  SUMMARY:
         TOP created.
         BOTTOM created.
+        SILK_BOT created.
         SILK_TOP created.
         BOARD created.
         MASK_BOT created.

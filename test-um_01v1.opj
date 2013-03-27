@@ -109,14 +109,13 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "e:\orcad_sch\other\test_um\test-um_01v1.dsn")
-      (Path "Design Resources" "e:\orcad_sch\other\test_um\test-um_01v1.dsn"
-         "A - RS232")
+      (Path "Design Resources" ".\test-um_01v1.dsn")
+      (Path "Design Resources" ".\test-um_01v1.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" "e:\orcad_sch\lib\ic.olb")
       (Path "Design Resources" "Library" "e:\orcad_sch\lib\power.olb")
       (Path "Outputs")
-      (Select "Design Resources" "e:\orcad_sch\other\test_um\test-um_01v1.dsn"))
+      (Select "Design Resources" ".\test-um_01v1.dsn" "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -126,23 +125,13 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -23 -20 964 88 531")
-        (Scroll "-25 -11")
-        (Zoom "75")
+        (Placement "44 2 3 -1 -1 -4 -23 22 768 22 483")
+        (Scroll "81 597")
+        (Zoom "150")
         (Occurrence "/"))
-      (Path "E:\ORCAD_SCH\OTHER\TEST_UM\TEST-UM_01V1.DSN")
+      (Path "E:\ORCAD_SCH\OTHER\TEST-UM_01V1\TEST-UM_01V1.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "PAGE1"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 0 750 0 446")
-        (Scroll "0 0")
-        (Zoom "73")
-        (Occurrence "/A01"))
-      (Path "E:\ORCAD_SCH\OTHER\TEST_UM\TEST-UM_01V1.DSN")
-      (Schematic "A - RS232")
-      (Page "A - RS232")))
+      (Page "PAGE1")))
   (PartMRUSelector
     (MOUNTING_HOLE_PLATED
       (FullPartName "MOUNTING_HOLE_PLATED.Normal")
