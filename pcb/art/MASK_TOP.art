@@ -2,8 +2,8 @@ G04 ================== begin FILE IDENTIFICATION RECORD ==================*
 G04 Layout Name:  E:/ORCAD_sch/Other/TEST-UM_01v1/pcb/test-um_01v1.brd*
 G04 Film Name:    MASK_TOP*
 G04 File Format:  Gerber RS274X*
-G04 File Origin:  Cadence Allegro 16.6-S005*
-G04 Origin Date:  Wed Mar 27 11:43:21 2013*
+G04 File Origin:  Cadence Allegro 16.6-S007*
+G04 Origin Date:  Thu Apr 18 09:32:52 2013*
 G04 *
 G04 Layer:  VIA CLASS/SOLDERMASK_TOP*
 G04 Layer:  PIN/SOLDERMASK_TOP*

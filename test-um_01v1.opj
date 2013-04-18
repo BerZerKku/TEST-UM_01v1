@@ -118,7 +118,7 @@
       (Path "Design Resources" "Library" "e:\orcad_sch\lib\power.olb")
       (Path "Outputs")
       (Select "Design Resources"
-         "e:\orcad_sch\other\test-um_01v1\test-um_01v1.dsn" "b - 48 to 5B"))
+         "e:\orcad_sch\other\test-um_01v1\test-um_01v1.dsn" "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -128,9 +128,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 22 768 22 483")
+        (Placement "44 0 1 -1 -1 -1 -1 22 768 22 483")
         (Scroll "0 0")
-        (Zoom "75")
+        (Zoom "100")
         (Occurrence "/"))
       (Path "E:\ORCAD_SCH\OTHER\TEST-UM_01V1\TEST-UM_01V1.DSN")
       (Schematic "SCHEMATIC1")
