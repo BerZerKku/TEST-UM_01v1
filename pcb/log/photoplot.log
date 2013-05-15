@@ -3,8 +3,8 @@
 (    ARTWORK LOG                                                      )
 (                                                                     )
 (    Drawing          : test-um_01v1.brd                              )
-(    Software Version : 16.6S007                                      )
-(    Date/Time        : Thu Apr 18 09:32:51 2013                      )
+(    Software Version : 16.6S009                                      )
+(    Date/Time        : Wed May 15 15:44:18 2013                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -104,28 +104,6 @@ Results from parameter file ...
   SQUARE     1.55000                     0.000 NO     DARK 
 
      BOTTOM created.
-
-
-================================================================
-     PROCESSING FILM < SILK_BOT >
-     TO FILE < E:/ORCAD_sch/Other/TEST-UM_01v1/pcb/art/SILK_BOT.art > ...
-================================================================
-
-  FILM PARAMETERS :
-  ---------------------------------------------------------
-  Undefined line width                0.200
-  Mirror code                         NONE
-  Rotate angle                        NONE
-  Offset x:                           0.000
-  Offset y:                           0.000
-  Plot negative                       NO
-  Suppress unconnected internal pads  NO
-  Draw holes only                     NO
-
-
-
-  APERTURES USED:  NONE
-     SILK_BOT created.
 
 
 ================================================================
@@ -264,7 +242,6 @@ Results from parameter file ...
  SUMMARY:
         TOP created.
         BOTTOM created.
-        SILK_BOT created.
         SILK_TOP created.
         BOARD created.
         MASK_BOT created.
